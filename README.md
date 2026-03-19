@@ -28,7 +28,7 @@ This extension is built with a **zero-persistence** policy:
 
 1. Clone this repository to your machine:
    ```bash
-   git clone https://github.com/your-name/image-processor-ext.git
+   git clone https://github.com/girard-xyz/unexposed.git
    cd image-processor-ext
    ```
 2. Open Google Chrome and navigate to: `chrome://extensions/`
