@@ -1,8 +1,11 @@
-# ✨ Unexposed - Chrome Extension
+# 🥷 Unexposed - Chrome Extension
+ 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/girard-xyz/unexposed)
+
 
 ![Unexposed Logo](./icons/icon128.png)
 
-A privacy-focused Chrome extension for image processing. The extension overlays an anonymization tool on file upload fields (`<input type="file">`) across any website.
+A privacy-focused Chrome extension for image post-processing before upload. The extension overlays an anonymization tool on file upload fields (`<input type="file">`) across any website.
 
 It allows you to clean an image locally before it's sent to the host website's server.
 
