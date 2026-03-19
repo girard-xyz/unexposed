@@ -1,0 +1,18 @@
+{
+  "extName": { "message": "Unexposed" },
+  "extDesc": { "message": "Privacy-first image anonymizer. Automatically strip EXIF metadata and safely blur faces locally before uploading your photos." },
+  "btnTitle": { "message": "Process image with Unexposed" },
+  "dropZoneText": { "message": "Click or drag an image here" },
+  "blurFacesLabel": { "message": "Blur faces" },
+  "processBtnText": { "message": "Preview Anonymization" },
+  "processBtnProcessing": { "message": "Processing..." },
+  "cancelBtnText": { "message": "Cancel / Retry" },
+  "confirmBtnText": { "message": "Confirm & Upload" },
+  "exifCountLabel": { "message": "Remaining EXIF tags:" },
+  "loadingText": { "message": "Processing image..." },
+  "tipGps": { "message": "GPS data detected" },
+  "tipDevice": { "message": "Device info detected" },
+  "tipDate": { "message": "Precise timestamp detected" },
+  "errInvalidImage": { "message": "Please select a valid image file." },
+  "errModelsLoading": { "message": "AI models are still loading. Please wait." }
+}

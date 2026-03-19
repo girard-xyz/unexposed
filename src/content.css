@@ -1,0 +1,28 @@
+.img-post-processor-ext-button {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: #000000;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  z-index: 2147483646;
+  opacity: 0.8;
+  transform-origin: center center;
+  will-change: transform;
+  transition: opacity 0.2s, transform 0.2s;
+  user-select: none;
+}
+
+.img-post-processor-ext-button:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}

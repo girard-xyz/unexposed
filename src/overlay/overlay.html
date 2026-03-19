@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Unexposed</title>
+  <link rel="stylesheet" href="overlay.css">
+</head>
+<body>
+  <div class="overlay-container">
+    <div class="modal">
+      <div class="header">
+        <h2>🥷 Unexposed</h2>
+        <button id="close-btn" class="close-btn">&times;</button>
+      </div>
+
+      <div id="loading-overlay" class="loading-overlay" style="display: none;">
+        <div class="spinner"></div>
+        <p data-i18n="loadingText">Conversion...</p>
+      </div>
+      
+      <div class="content">
+        <label id="drop-zone" class="drop-zone" for="file-input">
+          <div class="icon">📁</div>
+          <p data-i18n="dropZoneText"></p>
+          <input type="file" id="file-input" accept="image/*" hidden>
+        </label>
+
+        <div id="preview-container" class="preview-container" style="display: none;">
+          <canvas id="canvas"></canvas>
+          <div id="indicators" class="indicators">
+            <div id="ind-gps" class="indicator" data-i18n-title="tipGps" title="GPS Data" style="display:none;">🛰️</div>
+            <div id="ind-device" class="indicator" data-i18n-title="tipDevice" title="Device Info" style="display:none;">📷</div>
+            <div id="ind-date" class="indicator" data-i18n-title="tipDate" title="Date/Time" style="display:none;">🕒</div>
+          </div>
+        </div>
+        
+        <div id="meta-info" class="meta-info" style="display: none;">
+          <div class="meta-bubble">
+            <span class="meta-label" data-i18n="exifCountLabel">Données EXIF :</span>
+            <span id="exif-count" class="meta-value">--</span>
+          </div>
+        </div>
+        
+        <div class="options">
+          <label class="toggle">
+            <input type="checkbox" id="blur-faces" checked>
+            <span class="slider"></span>
+            <span data-i18n="blurFacesLabel">Flouter les visages</span>
+          </label>
+        </div>
+
+        <div class="actions" id="initial-actions">
+          <button id="process-btn" class="btn primary" disabled data-i18n="processBtnText"></button>
+        </div>
+        <div class="actions" id="confirm-actions" style="display: none; gap: 10px;">
+          <button id="cancel-btn" class="btn" data-i18n="cancelBtnText" style="background: #ecf0f1; color: #7f8c8d;"></button>
+          <button id="confirm-btn" class="btn primary" data-i18n="confirmBtnText" style="background: #27ae60;"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <iframe id="heic-sandbox" src="assets/sandbox.html" style="display:none;"></iframe>
+  <script src="assets/exifr.umd.js"></script>
+  <script src="assets/face-api.min.js"></script>
+  <script src="overlay.js"></script>
+</body>
+</html>

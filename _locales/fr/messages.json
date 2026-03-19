@@ -1,0 +1,18 @@
+{
+  "extName": { "message": "Unexposed" },
+  "extDesc": { "message": "Anonymiseur d'images respectueux de la vie privée. Supprime automatiquement les métadonnées EXIF et floute les visages localement avant de les envoyer." },
+  "btnTitle": { "message": "Traiter l'image avec Unexposed" },
+  "dropZoneText": { "message": "Cliquez ou glissez une image ici" },
+  "blurFacesLabel": { "message": "Flouter les visages" },
+  "processBtnText": { "message": "Prévisualiser l'effet" },
+  "processBtnProcessing": { "message": "Traitement..." },
+  "cancelBtnText": { "message": "Annuler / Recommencer" },
+  "confirmBtnText": { "message": "Valider & Envoyer" },
+  "exifCountLabel": { "message": "Tags EXIF restants :" },
+  "loadingText": { "message": "Conversion de l'image..." },
+  "tipGps": { "message": "Données GPS détectées" },
+  "tipDevice": { "message": "Infos appareil photo détectées" },
+  "tipDate": { "message": "Horodatage précis détecté" },
+  "errInvalidImage": { "message": "Veuillez sélectionner une image valide." },
+  "errModelsLoading": { "message": "Les modèles d'IA sont encore en cours de chargement. Veuillez patienter." }
+}
